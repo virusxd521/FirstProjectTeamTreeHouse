@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+.main-navigation {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -69,12 +69,12 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
+  border-radius: 30%;
+  border: 3px solid rgb(181, 190, 42);
+  transition: all .7s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.3) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
@@ -88,7 +88,7 @@ header .profile-image:hover {
   background-color: #222;
   color: yellow;
 }
-.card {
+.cardOfSkills{
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -96,7 +96,7 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
-.card:hover {
+.cardOfSkills:hover {
   border-color: #ff99ff;
 }
 
@@ -186,8 +186,17 @@ a.social:hover {
     padding: 0 30px;
   }
 
+.divOfImages{
+  display: flex;
+  justify-content: space-around;
+}
 
-
+.oneOfthem {
+  width: 20%;
+  height: 200px;
+  border: 5px white solid;
+  border-radius: 30px;
+}
 
   main p {
     line-height: 1.6em;
